@@ -18,16 +18,16 @@ public class View{
         frame.setVisible(true);
 
 
-        panel = new JPanel(new BorderLayout());
+        panel = new JPanel(new GridLayout(3,1));
 
         helloButton = new JButton("Say hello");
         byeButton = new JButton("Say good bye");
         label = new JLabel("Nothing", SwingConstants.CENTER);
 
 
-        panel.add(helloButton, BorderLayout.NORTH);
-        panel.add(byeButton, BorderLayout.CENTER);
-        panel.add(label,BorderLayout.SOUTH);
+        panel.add(helloButton);
+        panel.add(byeButton);
+        panel.add(label);
 
         frame.add(panel,0);
 
