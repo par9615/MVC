@@ -1,3 +1,5 @@
+package mx.iteso;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -16,7 +18,6 @@ public class View{
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(200,200);
         frame.setVisible(true);
-
 
         panel = new JPanel(new GridLayout(3,1));
 

@@ -1,3 +1,8 @@
+package mx.iteso;
+
+import mx.iteso.Model;
+import mx.iteso.View;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
